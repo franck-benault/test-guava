@@ -6,6 +6,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<modules>
+	<module>mod01-cache</module>
 	</modules>
 
 	<properties>
@@ -22,7 +23,7 @@
 			<dependency>
 				<groupId>com.google.guava</groupId>
 				<artifactId>guava</artifactId>
-				<version>26.0</version>
+  				<version>26.0-jre</version>
 			</dependency>
 			<dependency>
 				<groupId>org.apache.commons</groupId>
